@@ -45,7 +45,7 @@ body {
 .billboard {
     width: 100%;
     overflow: hidden;
-
+    background-color: white;
     background-image: url(../images/cloud-01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -64,7 +64,6 @@ article {
 
 img {
     width: 100%;
-    text-align: center;
     border-radius: 1.25rem;
 }
 
