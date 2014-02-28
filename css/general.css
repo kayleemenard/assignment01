@@ -43,10 +43,9 @@ body {
 }
 
 .billboard {
-    width: 100%;
     overflow: hidden;
-    background-color: white;
     background-image: url(../images/cloud-01.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto;
