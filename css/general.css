@@ -44,11 +44,11 @@ body {
 
 .billboard {
     overflow: hidden;
-    background-image:url(../images/pileus.jpg);
+    background-image:url(../images/cloud01.jpg);
     background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: auto;
+
     box-shadow: .1rem .3rem .3rem .1rem rgba(0, 0, 0, .2);
 }
 
