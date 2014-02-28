@@ -44,7 +44,7 @@ body {
 
 .billboard {
     overflow: hidden;
-    background-image: url(/Users/Kaylee/Dropbox/Graphic%20Design/Semester%202/Interaction%20Design%201/github/Assignments/assignment01/images/cloud01.jpg);
+    background-image: url(../images/cloud01.jpg);
     background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
