@@ -76,12 +76,10 @@ img {
     margin: .5rem auto .5rem;
 }
 
-.vertical {
+.centred {
     width: 50%;
-}
-
-.tilted {
-    width: 50%;
+    margin: 0 auto;
+    display: block;
 }
 
 hr {
