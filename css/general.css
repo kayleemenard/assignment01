@@ -77,7 +77,7 @@ img {
 }
 
 .alto {
-    display: inline-block;
+    display: inline-block;        
     margin: .5rem auto .5rem;
 }
 
@@ -87,11 +87,13 @@ img {
 }
 
 .vertical {
-    width: 50%;
+    width: 30%;
+    margin: 1rem;
 }
 
 .tilted {
-    width: 50%;
+    width: 30%;
+    margin:1rem; 
 }
 
 hr {
@@ -125,13 +127,16 @@ h3 {
     color: #9cc;
 }
 
-li {
-    color:
-}
 
 ul li {
+    color: #c93;
     font-size: .90rem;
     line-height: 1.35rem;
+    list-style-type: circle;
+}
+
+.list {
+    color: black;
 }
 
 p {
@@ -150,22 +155,23 @@ figcaption {
 footer {
     background-color: #9cc;
     overflow: hidden;
-    display: flex;
 }
 
 footer p {
     font-size: 1rem;
-    margin: 2rem 5% .5rem;
+    margin: 1rem;
+    float: left
 }
 
 footer a {
     color: white;
 }
+    
 
 footer img {
-    height: 5rem;
+    height: 3rem;
     width: auto;
-    margin: .5rem 2rem .5rem auto;
+    margin: .5rem 1rem .5rem;
     overflow: hidden;
-    float: right;
+    float:right;
 }
