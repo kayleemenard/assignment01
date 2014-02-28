@@ -38,6 +38,10 @@ html {
     overflow: hidden;
 }
 
+body {
+    margin: 0 0;
+}
+
 .billboard {
     overflow: hidden;
     background-image: url(../images/cloud01.jpg);
@@ -47,12 +51,6 @@ html {
     background-size: auto;
     box-shadow: .1rem .3rem .3rem .1rem rgba(0, 0, 0, .2);
 }
-
-body {
-    margin: 0 0;
-}
-
-
 
 article {
     margin: 1rem;
