@@ -44,10 +44,6 @@ body {
 
 .billboard {
     overflow: hidden;
-    
-    height: 100px;
-    width: 100px;
-    
     background-image:url(../images/cloud01.jpg);
     background-color: white;
     background-repeat: no-repeat;
