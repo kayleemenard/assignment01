@@ -1,0 +1,171 @@
+@charset "utf-8";
+@-moz-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-ms-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-o-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-webkit-viewport {
+    width: device-width;
+    scale: 1;
+}
+@viewport {
+    width: device-width;
+    scale: 1;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 100%;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    background-color: silver;
+    background-image: radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent), radial-gradient(circle at 0 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+    /* */
+    background-size: 100px 50px;
+}
+
+.masthead {
+    background-color: #9cc;
+    overflow: hidden;
+}
+
+.logo {
+    height: 5rem;
+    width: auto;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+body {
+    margin: 0 0;
+}
+
+.billboard {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    background-image: url(../images/cloud-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+
+article {
+    margin: 1rem;
+    background-color: white;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    text-align: center;
+    border-radius: 1.25rem;
+}
+
+.alto {
+    display: inline-block;
+    margin: .5rem auto .5rem;
+}
+
+.cirrus {
+    display: inline-block;
+    margin: .5rem auto .5rem;
+}
+
+.vertical {
+    width: 50%;
+}
+
+.tilted {
+    width: 50%;
+}
+
+hr {
+    border: solid 2px #c93;
+}
+
+h1 {
+    margin: 6rem 0;
+    padding: .25rem 0;
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #9cc;
+    opacity: .8;
+}
+
+h2 {
+    margin: 2rem .5rem 1rem .5rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #c93;
+}
+
+h3 {
+    margin: 1rem .5rem .5rem.5rem;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #9cc;
+}
+
+li {
+    color:
+}
+
+ul li {
+    font-size: .90rem;
+    line-height: 1.35rem;
+}
+
+p {
+    margin: .5rem .5rem 1.35rem;
+    line-height: 1.5rem;
+    font-size: .90rem;
+}
+
+figcaption {
+    margin: 0.5rem 0 .5rem;
+    font-size: .50rem;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #9cc;
+    overflow: hidden;
+    display: flex;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 2rem 5% .5rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer img {
+    height: 5rem;
+    width: auto;
+    margin: .5rem 2rem .5rem auto;
+    overflow: hidden;
+    float: right;
+}
